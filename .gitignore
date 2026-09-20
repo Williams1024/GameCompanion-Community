@@ -1,0 +1,11 @@
+# This repository intentionally contains public documentation only.
+*.log
+*.dmp
+*.zip
+*.msix
+*.msixbundle
+*.appinstaller
+*.pfx
+*.cer
+.env*
+
