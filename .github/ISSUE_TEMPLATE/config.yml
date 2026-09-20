@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private account, billing, or security support
+    url: mailto:support@game-companion.com
+    about: Use email when your report contains private or security-sensitive information.
+  - name: Game Companion website
+    url: https://game-companion.com
+    about: Downloads, pricing, documentation, and official product information.
