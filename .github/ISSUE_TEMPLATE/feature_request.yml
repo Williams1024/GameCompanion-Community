@@ -1,0 +1,40 @@
+name: Feature request
+description: Suggest an improvement for any Game Companion tier
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the situation and who it affects.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested experience
+      description: Explain what you would like Game Companion to do.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Voice or microphone
+        - Commands or macros
+        - Game Brain or context
+        - Local AI
+        - Plans or GCT
+        - User interface
+        - Community and support
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or workarounds
+      description: Optional—tell us what you use today.
+
